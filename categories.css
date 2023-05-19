@@ -1,0 +1,164 @@
+.background {
+    background-color: rgba(211, 211, 211, 0.462);
+    height: 3000px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.line1 {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.categories {
+    /* border: 1px solid red; */
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.categoriesBtn {
+    all: unset;
+    background-image: url("./images/arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.firstBox {
+    /* border: 1px solid orange; */
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    position:relative;
+    height: 70px;
+}
+
+.box1 .box2 .box3 .box4 .box5 .box6 {
+    /* border: 1px solid orange; */
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+    width: 600px;
+    align-items: center;
+}
+
+.box1 img {
+    height: 250px;
+    width: 478px;
+    margin-right: 30px;
+}
+
+.box2 img {
+    height: 250px;
+    width: 478px;
+    margin-right: 30px;
+}
+
+.box3 img {
+    height: 250px;
+    width: 478px;
+}
+
+.box4 img {
+    height: 250px;
+    width: 478px;
+    margin-right: 30px;
+}
+
+.box5 img {
+    height: 250px;
+    width: 478px;
+    margin-right: 30px;
+}
+
+.box6 img {
+    height: 250px;
+    width: 478px;
+}
+
+.secondBox {
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdBox {
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text {
+    height: 200px;
+}
+
+.titleBox{
+    width: 100%;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+}
+.title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.cate {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.english {
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.ko {
+    padding-top: 10px;
+}
+
+.date {
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
+
+.text {
+    position: relative;
+    animation: fadeInUp 1s;
+}
